@@ -333,10 +333,6 @@ h3 { font-size: 1.15rem; }
   color: var(--blue) !important;
 }
 
-.project-card-more {
-  border-left-style: dashed;
-}
-
 .project-links {
   margin-top: 8px !important;
   font-family: var(--font-mono);
@@ -358,6 +354,10 @@ h3 { font-size: 1.15rem; }
 .link-sep {
   color: var(--muted);
   margin: 0 6px;
+}
+
+.project-card-more {
+  border-left-style: dashed;
 }
 
 /* ===== Education ===== */
@@ -423,6 +423,17 @@ h3 { font-size: 1.15rem; }
   text-align: center;
   color: var(--muted);
   font-size: 13px;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.footer-tagline {
+  margin-top: 4px !important;
+  font-family: var(--font-mono);
+  font-size: 12px !important;
+  opacity: 0.75;
 }
 
 /* ===== Focus states ===== */
