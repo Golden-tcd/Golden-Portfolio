@@ -3,205 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Goodluck D. John — Portfolio</title>
-<meta name="description" content="Portfolio of Goodluck D. John (Golden), a Computer Science student at the Nigerian Army University, Biu — projects, skills, and background.">
-
-<!-- Open Graph (WhatsApp, LinkedIn, Facebook link previews) -->
+<title>Goodluck D. John — Frontend Developer, Designer &amp; Producer</title>
+<meta name="description" content="Portfolio of Goodluck D. John (Golden): Computer Science student, frontend developer, graphic designer and beat producer.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Goodluck D. John — Portfolio">
-<meta property="og:description" content="Computer Science student at NAU Biu. I build things by first taking apart how they work.">
-<meta property="og:image" content="https://golden-tcd.github.io/Golden---Portfolio-/social-preview.png">
-<meta property="og:url" content="https://golden-tcd.github.io/Golden---Portfolio-/">
-
-<!-- Twitter/X card -->
+<meta property="og:description" content="Frontend developer, graphic designer and beat producer. Computer Science student at NAU Biu.">
+<meta property="og:image" content="https://golden-tcd.github.io/Golden-Portfolio/social-preview.png">
+<meta property="og:url" content="https://golden-tcd.github.io/Golden-Portfolio/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Goodluck D. John — Portfolio">
-<meta name="twitter:description" content="Computer Science student at NAU Biu. I build things by first taking apart how they work.">
-<meta name="twitter:image" content="https://golden-tcd.github.io/Golden---Portfolio-/social-preview.png">
-
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="glow" aria-hidden="true"></div>
 
-<div class="grid-bg" aria-hidden="true"></div>
-
-<header class="site-header">
-  <span class="sheet-id">GDJ / 001</span>
-  <nav class="site-nav">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
+<header class="nav">
+  <a href="#top" class="brand">Golden<span>.</span></a>
+  <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav class="links" id="links">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certs">Credentials</a><a href="#contact" class="pill">Contact</a>
   </nav>
 </header>
 
 <main>
+<section class="hero" id="top">
+  <p class="eyebrow"><i class="dot"></i>Nigerian Army University, Biu</p>
+  <h1>Goodluck D. John</h1>
+  <p class="role">I'm a <span id="role">Frontend Developer</span><b class="caret">|</b></p>
+  <p class="lead">Known as Golden. I build clean, responsive websites, design visuals that hold attention, and produce beats — all driven by one habit: figuring out how things work, then making them better.</p>
+  <div class="actions">
+    <a href="#projects" class="btn primary">View my work</a>
+    <a href="resume.pdf" class="btn" target="_blank" rel="noopener">Download resume</a>
+  </div>
+  <div class="stats">
+    <div><strong data-n="4">0</strong><span>Qualifications</span></div>
+    <div><strong data-n="3">0</strong><span>Creative disciplines</span></div>
+    <div><strong data-n="3">0</strong><span>Languages</span></div>
+  </div>
+  <div class="wave" aria-hidden="true"></div>
+</section>
 
-  <!-- HERO -->
-  <section class="hero sheet" id="top">
-    <p class="spec-label">sheet 01 — profile</p>
-    <h1 class="hero-name">
-      Goodluck D. John
-      <span class="hero-alias">— known as Golden</span>
-    </h1>
-    <p class="hero-role">Computer Science student, Nigerian Army University, Biu</p>
-    <p class="hero-tagline">I build things by first taking apart how they work — now in code instead of gears.</p>
-    <div class="hero-actions">
-      <a href="#projects" class="btn btn-primary">View projects</a>
-      <a href="resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Resume (PDF)</a>
-      <a href="#contact" class="btn btn-ghost">Get in touch</a>
-    </div>
-    <svg class="hero-diagram" viewBox="0 0 600 160" aria-hidden="true">
-      <line x1="0" y1="80" x2="600" y2="80" class="draw-line" />
-      <circle cx="80" cy="80" r="5" class="draw-node" style="animation-delay:.6s"/>
-      <circle cx="260" cy="80" r="5" class="draw-node" style="animation-delay:.9s"/>
-      <circle cx="440" cy="80" r="5" class="draw-node" style="animation-delay:1.2s"/>
-      <text x="60" y="60" class="draw-text" style="animation-delay:.6s">gears</text>
-      <text x="235" y="60" class="draw-text" style="animation-delay:.9s">curiosity</text>
-      <text x="410" y="60" class="draw-text" style="animation-delay:1.2s">code</text>
-    </svg>
-  </section>
+<section id="about" class="reveal">
+  <p class="tag">About</p>
+  <h2>From gears to code, with a love for craft.</h2>
+  <div class="two">
+    <p>I grew up wanting to be a mechanical engineer, fascinated by inventions and the thrill of making something that didn't exist yesterday. That curiosity found a new home when I started asking how computers, phones and apps actually work.</p>
+    <p>Today I'm a Computer Science student at the Nigerian Army University, Biu, focused on frontend development. Outside code, I design graphics and produce beats, which keeps me thinking about both how things work and how they feel to use.</p>
+  </div>
+</section>
 
-  <!-- ABOUT -->
-  <section class="sheet" id="about">
-    <p class="spec-label">sheet 02 — origin</p>
-    <h2>About</h2>
-    <div class="about-body">
-      <p>Growing up, I wanted to be a mechanical engineer. I loved the idea of building things that didn't exist yet — machines, inventions, anything that turned an idea into something real and moving.</p>
-      <p>That curiosity found a new outlet when I started asking how computers and phones actually work — how an idea becomes an app, a website, a game. Chasing that answer is what pulled me into computing, and it still drives how I approach every project: take it apart, understand it, then build it better.</p>
-      <p>I'm currently a Computer Science undergraduate at the Nigerian Army University, Biu, in the Faculty of Computing — still curious about most of the same things.</p>
-    </div>
-  </section>
+<section id="skills" class="reveal">
+  <p class="tag">Skills</p>
+  <h2>What I work with.</h2>
+  <div class="bento">
+    <div class="card wide"><h3>Languages</h3>
+      <ul class="chips"><li>Python <em>comfortable</em></li><li>JavaScript <em>comfortable</em></li><li>HTML &amp; CSS <em>comfortable</em></li><li>C++ <em class="learn">learning</em></li></ul></div>
+    <div class="card"><h3>Tools</h3>
+      <ul class="chips"><li>VS Code</li><li>Spck Editor</li><li>Git &amp; GitHub</li></ul></div>
+    <div class="card"><h3>Creative</h3>
+      <ul class="chips"><li>Graphic design</li><li>Beat production</li></ul></div>
+  </div>
+</section>
 
-  <!-- SKILLS -->
-  <section class="sheet" id="skills">
-    <p class="spec-label">sheet 03 — specification</p>
-    <h2>Skills</h2>
-    <div class="skill-grid">
-      <div class="skill-item">
-        <svg class="skill-ring" viewBox="0 0 100 100" aria-hidden="true">
-          <circle class="ring-track" cx="50" cy="50" r="42"/>
-          <circle class="ring-fill" cx="50" cy="50" r="42" stroke-dasharray="264" stroke-dashoffset="53"/>
-        </svg>
-        <p class="skill-name">Python</p>
-        <p class="skill-status">comfortable</p>
-      </div>
-      <div class="skill-item">
-        <svg class="skill-ring" viewBox="0 0 100 100" aria-hidden="true">
-          <circle class="ring-track" cx="50" cy="50" r="42"/>
-          <circle class="ring-fill" cx="50" cy="50" r="42" stroke-dasharray="264" stroke-dashoffset="66"/>
-        </svg>
-        <p class="skill-name">JavaScript</p>
-        <p class="skill-status">comfortable</p>
-      </div>
-      <div class="skill-item">
-        <svg class="skill-ring" viewBox="0 0 100 100" aria-hidden="true">
-          <circle class="ring-track" cx="50" cy="50" r="42"/>
-          <circle class="ring-fill" cx="50" cy="50" r="42" stroke-dasharray="264" stroke-dashoffset="172"/>
-        </svg>
-        <p class="skill-name">C++</p>
-        <p class="skill-status">learning</p>
-      </div>
-    </div>
-    <p class="spec-label spec-label-sub">tools</p>
-    <ul class="tool-list">
-      <li>Spck Editor</li>
-      <li>VS Code</li>
-    </ul>
-  </section>
+<section id="projects" class="reveal">
+  <p class="tag">Projects</p>
+  <h2>Selected work.</h2>
+  <div class="grid">
+    <article class="card feat"><span class="badge live">In development</span>
+      <h3>Facial Recognition Access Control</h3>
+      <p>A system that verifies faces to control access, replacing keys and cards with something harder to lose or copy.</p></article>
+    <article class="card"><span class="badge done">Completed</span>
+      <h3>Commercial Website</h3>
+      <p>A responsive business website, from page structure to front-end build.</p></article>
+    <article class="card"><span class="badge live">In development</span>
+      <h3>Home Workout App</h3>
+      <p>An app that guides full workouts at home, no gym equipment needed.</p></article>
+  </div>
+</section>
 
-  <!-- PROJECTS -->
-  <section class="sheet" id="projects">
-    <p class="spec-label">sheet 04 — builds</p>
-    <h2>Projects</h2>
-    <div class="project-grid">
+<section id="certs" class="reveal">
+  <p class="tag">Credentials</p>
+  <h2>Qualifications &amp; training.</h2>
+  <ol class="timeline">
+    <li><span class="yr">2026</span><div><h3>Frontend Development</h3><p>TS Academy</p></div></li>
+    <li><span class="yr">2025</span><div><h3>Beats Production</h3><p>Skyline Records</p></div></li>
+    <li><span class="yr">2024</span><div><h3>Graphic Design</h3><p>Dess-Jeff ICT Complex</p></div></li>
+    <li><span class="yr now">Now</span><div><h3>B.Sc. Computer Science</h3><p>Nigerian Army University, Biu · In progress</p></div></li>
+  </ol>
+</section>
 
-      <article class="project-card featured">
-        <p class="project-tag">featured</p>
-        <h3>Facial Recognition Access Control System</h3>
-        <p>A concept explored as a primary candidate for my final year project — a system that identifies and verifies faces to control access, instead of keys or cards.</p>
-        <p class="project-meta">status: in development</p>
-      </article>
-
-      <article class="project-card featured">
-        <p class="project-tag">featured — live</p>
-        <h3>MiEx — Expense Tracker</h3>
-        <p>A frontend expense tracker with category breakdowns, a spending trend chart, a monthly budget with overspend alerts, search, inline editing, and history browsing by week/month/year or a custom date range. Built with vanilla HTML, CSS, and JavaScript — light/dark theme, no backend.</p>
-        <p class="project-meta">status: complete</p>
-        <p class="project-links">
-          <a href="https://golden-tcd.github.io/MiEx/" target="_blank" rel="noopener">Live demo</a>
-          <span class="link-sep">/</span>
-          <a href="https://github.com/Golden-tcd/MiEx" target="_blank" rel="noopener">Source</a>
-        </p>
-      </article>
-
-      <article class="project-card">
-        <h3>Commercial Website</h3>
-        <p>A website built for commercial use, covering the front-end build and general site structure.</p>
-        <p class="project-meta">status: complete</p>
-      </article>
-
-      <article class="project-card">
-        <h3>Home Workout App</h3>
-        <p>An application concept for guiding workouts from home, without needing gym equipment.</p>
-        <p class="project-meta">status: in development</p>
-      </article>
-
-      <article class="project-card project-card-more">
-        <h3>More in progress</h3>
-        <p>Additional builds are underway — this sheet gets updated as they're finished.</p>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- EDUCATION -->
-  <section class="sheet" id="education">
-    <p class="spec-label">sheet 05 — record</p>
-    <h2>Education</h2>
-    <div class="edu-row">
-      <div class="edu-mark" aria-hidden="true"></div>
-      <div>
-        <h3>Nigerian Army University, Biu</h3>
-        <p class="project-meta">Faculty of Computing — B.Sc. Computer Science</p>
-        <p>Working through Computer Science, Physics, and Mathematics, and already itching to build more than the syllabus asks for.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="sheet" id="contact">
-    <p class="spec-label">sheet 06 — contact</p>
-    <h2>Get in touch</h2>
-    <p class="contact-intro">Open to opportunities, collaboration, or just talking about how something works.</p>
-    <div class="contact-grid">
-      <a href="mailto:goodluckjohn260@gmail.com" class="contact-item">
-        <span class="contact-label">Email</span>
-        <span class="contact-value">goodluckjohn260@gmail.com</span>
-      </a>
-      <a href="tel:+2347077784147" class="contact-item">
-        <span class="contact-label">Phone</span>
-        <span class="contact-value">0707 778 4147</span>
-      </a>
-      <a href="https://github.com/golden-tcd" class="contact-item" target="_blank" rel="noopener">
-        <span class="contact-label">GitHub</span>
-        <span class="contact-value">github.com/golden-tcd</span>
-      </a>
-    </div>
-  </section>
-
+<section id="contact" class="reveal">
+  <p class="tag">Contact</p>
+  <h2>Let's build something.</h2>
+  <p class="lead">Have a project, a collaboration or an opportunity in mind? I'd like to hear about it.</p>
+  <div class="grid">
+    <a class="card link" href="mailto:goodluckjohn260@gmail.com"><h3>Email</h3><p>goodluckjohn260@gmail.com</p></a>
+    <a class="card link" href="tel:+2347077784147"><h3>Phone</h3><p>0707 778 4147</p></a>
+    <a class="card link" href="https://github.com/golden-tcd" target="_blank" rel="noopener"><h3>GitHub</h3><p>github.com/golden-tcd</p></a>
+  </div>
+</section>
 </main>
 
-<footer class="site-footer">
-  <p>Goodluck D. John — Golden</p>
-  <p class="footer-tagline">Golden_TCD &middot; building things that didn't exist yesterday</p>
-</footer>
-
+<footer><p>© <span id="yr">2026</span> Goodluck D. John. Designed and built by hand.</p></footer>
 <script src="script.js"></script>
 </body>
 </html>
