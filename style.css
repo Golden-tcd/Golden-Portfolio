@@ -49,6 +49,8 @@ h1{font:800 clamp(2.5rem,10vw,5rem)/1.02 var(--hd);margin:0 0 14px;letter-spacin
 .card p{margin:0;color:var(--mu);font-size:.95rem}
 .card.wide{grid-column:1/-1}.card.feat{grid-column:1/-1;background:linear-gradient(135deg,var(--s2),var(--s1))}
 .link p{color:var(--tx);word-break:break-all}
+.more{display:inline-block;margin-top:16px;font-weight:600;font-size:.9rem;color:var(--ac);border-bottom:1px solid transparent;transition:border-color .2s}
+.more:hover{border-color:var(--ac)}
 .chips{list-style:none;padding:0;margin:14px 0 0;display:flex;flex-wrap:wrap;gap:10px}
 .chips li{background:var(--s2);border:1px solid var(--bd);padding:7px 14px;border-radius:99px;font-size:.9rem}
 .chips em{font:400 .72rem var(--mo);color:var(--mint);margin-left:6px;font-style:normal}.chips em.learn{color:var(--ac)}

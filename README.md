@@ -1,44 +1,35 @@
-# Portfolio — Goodluck D. John (Golden)
+# Goodluck D. John (Golden) — Portfolio
 
-Personal portfolio website for Goodluck D. John ("Golden"), a Computer Science student at the Nigerian Army University, Biu.
+Personal portfolio of Goodluck D. John, known as Golden, founder of Golden_TCD. Computer Science student at the Nigerian Army University, Biu, working as a frontend developer, graphic designer and beat producer.
 
-**Live site:** https://golden-tcd.github.io/Golden---Portfolio-/
-
-## About
-
-A blueprint/schematic-styled portfolio — graph-paper backgrounds, corner-bracketed section "sheets," and spec-style labels — built to reflect a path that started with a love for mechanical engineering and grew into a passion for computing.
+**Live site:** https://golden-tcd.github.io/Golden-Portfolio/
 
 ## Sections
 
-- **About** — background and how I got into computing
-- **Skills** — Python, JavaScript, C++ (learning), plus tools (Spck Editor, VS Code)
-- **Projects** — Facial Recognition Access Control System, Commercial Website, Home Workout App
-- **Education** — Nigerian Army University, Biu (Faculty of Computing)
-- **Contact** — email and phone
+- **About:** background and what drives my work
+- **Skills:** Python, JavaScript, HTML and CSS, C++ (learning), plus tools and creative disciplines
+- **Projects:** Facial Recognition Access Control System, Commercial Website, [MiEx Expenses Tracker](https://golden-tcd.github.io/MiEx/), Home Workout App
+- **Credentials:** Frontend Development (TS Academy, 2026), Beats Production (Skyline Records, 2025), Graphic Design (Dess-Jeff ICT Complex, 2024), B.Sc. Computer Science (in progress)
+- **Contact:** email, phone and GitHub, with a downloadable resume
+
+## Features
+
+- Responsive layout that adapts from phones to desktops
+- Dark, modern design with scroll animations and an animated waveform
+- Rotating role headline and mobile navigation menu
+- Respects reduced-motion settings
 
 ## Built with
 
-- HTML5
-- CSS3 (custom, no framework)
-- Vanilla JavaScript
-- Fonts: Space Grotesk, IBM Plex Sans, IBM Plex Mono (Google Fonts)
+HTML5, CSS3 and vanilla JavaScript, with no frameworks or build step. Fonts: Bricolage Grotesque, Manrope and JetBrains Mono (Google Fonts).
 
-## Running locally
+## Run locally
 
-No build step needed — it's plain HTML/CSS/JS.
-
-1. Download or clone this repo
-2. Open `index.html` in any browser
-
-## Hosted with GitHub Pages
-
-This site is deployed via GitHub Pages, served directly from this repository.
+Download or clone the repo and open `index.html` in any browser.
 
 ## Contact
 
 - Email: goodluckjohn260@gmail.com
-- Phone: 0707 778 4147
+- GitHub: [golden-tcd](https://github.com/golden-tcd)
 
----
-
-_Built and maintained by Golden — updated as new projects and skills are added._
+© Golden_TCD — Beyond imagination.
