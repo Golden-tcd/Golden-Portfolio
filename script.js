@@ -52,3 +52,14 @@ window.addEventListener('pointermove', function (e) {
   document.documentElement.style.setProperty('--y', e.clientY + 'px');
 });
 
+
+// Contact form (Formspree)
+var form = document.getElementById('form'), note = document.getElementById('note');
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+  if (form.action.indexOf('YOUR_FORM_ID') > -1) { note.textContent = 'This form is not connected yet. Please use the email above.'; return; }
+  note.textContent = 'Sending...';
+  fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+    .then(function (r) { if (r.ok) { form.reset(); note.textContent = 'Thanks! Your message was sent.'; } else { note.textContent = 'Something went wrong. Please email me instead.'; } })
+    .catch(function () { note.textContent = 'Network error. Please email me instead.'; });
+});

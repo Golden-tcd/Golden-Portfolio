@@ -11,6 +11,10 @@
 <meta property="og:image" content="https://golden-tcd.github.io/Golden-Portfolio/social-preview.png">
 <meta property="og:url" content="https://golden-tcd.github.io/Golden-Portfolio/">
 <meta name="twitter:card" content="summary_large_image">
+<!-- Paste your Google Search Console verification tag below once you have it:
+<meta name="google-site-verification" content="YOUR_CODE">
+-->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Goodluck D. John","alternateName":"Golden","jobTitle":"Frontend Developer, Graphic Designer and Beat Producer","url":"https://golden-tcd.github.io/Golden-Portfolio/","sameAs":["https://github.com/golden-tcd"],"alumniOf":"Nigerian Army University, Biu"}</script>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -23,7 +27,7 @@
   <a href="#top" class="brand">Golden<span>.</span></a>
   <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
   <nav class="links" id="links">
-    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certs">Credentials</a><a href="#contact" class="pill">Contact</a>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certs">Credentials</a><a href="#services">Services</a><a href="#contact" class="pill">Contact</a>
   </nav>
 </header>
 
@@ -63,7 +67,7 @@
     <div class="card"><h3>Tools</h3>
       <ul class="chips"><li>VS Code</li><li>Spck Editor</li><li>Git &amp; GitHub</li></ul></div>
     <div class="card"><h3>Creative</h3>
-      <ul class="chips"><li>Photoshop <em>design</em></li><li>Illustrator <em>design</em></li><li>FL Studio <em>beats</em></li><li>Ableton Live <em>beats</em></li></ul></div>
+      <ul class="chips"><li>Photoshop <em>design</em></li><li>CorelDRAW <em>design</em></li><li>Canva <em>design</em></li><li>BandLab <em>beats</em></li></ul></div>
   </div>
 </section>
 
@@ -79,8 +83,7 @@
       <p>A responsive business website, from page structure to front-end build.</p></article>
     <article class="card"><span class="badge done">Completed</span>
       <h3>MiEx Expenses Tracker</h3>
-      <p>Log expenses by name, amount, category and date, then see spending broken down by category and trends over recent months. Set a monthly budget and get warned when you're close to or over it. Includes search, editing of past entries, and light/dark mode.</p>
-      <a class="more" href="https://golden-tcd.github.io/MiEx/" target="_blank" rel="noopener">View live app</a></article>
+      <p>Log expenses by name, amount, category and date, then see spending broken down by category and trends over recent months. Set a monthly budget and get warned when you're close to or over it. Includes search, editing of past entries, and light/dark mode.</p></article>
     <article class="card"><span class="badge live">In development</span>
       <h3>Home Workout App</h3>
       <p>An app that guides full workouts at home, no gym equipment needed.</p></article>
@@ -98,6 +101,18 @@
   </ol>
 </section>
 
+<section id="services" class="reveal">
+  <p class="tag">Services</p>
+  <h2>Work with Golden_TCD.</h2>
+  <p class="lead">Need a website, a visual identity or a beat? Here is what I can do for you.</p>
+  <div class="grid">
+    <div class="card"><h3>Websites &amp; web apps</h3><p>Fast, responsive sites and tools for individuals and small businesses, built with clean HTML, CSS and JavaScript.</p></div>
+    <div class="card"><h3>Graphic design</h3><p>Logos, flyers and social media graphics that look sharp and match your brand, made with Photoshop, CorelDRAW and Canva.</p></div>
+    <div class="card"><h3>Beat production</h3><p>Original beats produced on BandLab, shaped to the mood and style your project needs.</p></div>
+  </div>
+  <p><a href="#contact" class="btn primary">Start a project</a></p>
+</section>
+
 <section id="contact" class="reveal">
   <p class="tag">Contact</p>
   <h2>Let's build something.</h2>
@@ -107,6 +122,14 @@
     <a class="card link" href="tel:+2347077784147"><h3>Phone</h3><p>0707 778 4147</p></a>
     <a class="card link" href="https://github.com/golden-tcd" target="_blank" rel="noopener"><h3>GitHub</h3><p>github.com/golden-tcd</p></a>
   </div>
+  <h3 class="formh">Or send a message directly</h3>
+  <form class="form" id="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label>Name<input name="name" autocomplete="name" required></label>
+    <label>Email<input type="email" name="email" autocomplete="email" required></label>
+    <label>Message<textarea name="message" rows="5" required></textarea></label>
+    <button class="btn primary" type="submit">Send message</button>
+    <p class="note" id="note" role="status"></p>
+  </form>
 </section>
 </main>
 

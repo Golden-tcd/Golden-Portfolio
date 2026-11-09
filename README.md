@@ -7,8 +7,8 @@ Personal portfolio of Goodluck D. John, known as Golden, founder of Golden_TCD. 
 ## Sections
 
 - **About:** background and what drives my work
-- **Skills:** Python, JavaScript, HTML and CSS, C++ (learning), plus tools (including Photoshop, Illustrator, FL Studio and Ableton Live)
-- **Projects:** Facial Recognition Access Control System, Commercial Website, [MiEx Expenses Tracker](https://golden-tcd.github.io/MiEx/), Home Workout App
+- **Skills:** Python, JavaScript, HTML and CSS, C++ (learning), plus tools (including Photoshop, CorelDRAW, Canva and BandLab)
+- **Projects:** Facial Recognition Access Control System, Commercial Website, MiEx Expenses Tracker, Home Workout App
 - **Credentials:** Frontend Development (TS Academy, 2026), Beats Production (Skyline Records, 2025), Graphic Design (QuantCom ICT Complex, 2024), B.Sc. Computer Science (in progress)
 - **Contact:** email, phone and GitHub, with a downloadable resume
 

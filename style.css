@@ -64,6 +64,14 @@ h1{font:800 clamp(2.5rem,10vw,5rem)/1.02 var(--hd);margin:0 0 14px;letter-spacin
 .yr{font:500 .85rem var(--mo);color:var(--ac);min-width:44px;padding-top:3px}.yr.now{color:var(--mint)}
 .timeline p{margin:0;color:var(--mu)}
 
+.formh{margin:36px 0 14px}
+.form{display:grid;gap:16px;max-width:560px}
+.form label{display:grid;gap:6px;font-size:.88rem;color:var(--mu)}
+.form input,.form textarea{background:var(--s1);border:1px solid var(--bd);border-radius:12px;padding:13px 14px;color:var(--tx);font:inherit;width:100%}
+.form input:focus,.form textarea:focus{outline:none;border-color:var(--ac)}
+.form .btn{justify-self:start;cursor:pointer;font-family:inherit}
+.note{margin:0;font-size:.9rem;color:var(--mint)}
+#services .btn{margin-top:26px}
 footer{text-align:center;color:var(--mu);font-size:.85rem;padding:60px 22px 40px}
 
 /* motion */
